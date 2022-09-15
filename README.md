@@ -1,1 +1,5 @@
 # Federated-Learning-in-Image-Classification
+
+Image Classification, using traditional Machine Learning, is a very well-known technique but here in this paper we have used Federated Learning where the data of clients is not sent to the server and the model is trained itself on the user’s device. Instead of sending data to the server we sent trained model to the server for further process. Federated Learning enables cell phones to work together to learn a common predictive model while storing all training data on the computer, effectively limiting machine learning of the need to store data in the cloud. This goes beyond using local models on mobile devices to make predictions from the model.
+Training in the cloud. In our project we have used 70,000 dataset of fashion mist dataset for testing and training federated learning in 10 different categories. From the above dataset 60,000 dataset are used for training while other 10,000 are used for testing.
+The 60,000-training data set is distributed among 5 users which act as a mobile device.
